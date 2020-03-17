@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>91dcb046-6131-46b3-9a57-f48abb14e3db</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Middleware\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.2" />
+  </ItemGroup>
+
+</Project>
